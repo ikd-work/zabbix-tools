@@ -4,6 +4,7 @@ zabbix-tools
 This repository includes some convenient tools for Zabbix.
 
 - AWS Health Check Tool(aws_health_check)
+- IT Service Reporting Tool(it_service_report)
 
 AWS Health Check Tool
 ---------------------
@@ -13,6 +14,15 @@ This Zabbix External script checks the AWS Health Dashboard RSS feed.
 By importing template xml file, the external check item is registered to Zabbix.
 And 3 triggers is registered.
 
+IT Service Reporting Tool
+--------------------------
+
+This Tool includes zabbix external script.
+This Zabbix External script output Zabbix IT Service Summary Data.
+When you would like to report IT service information by e-mail, this tool is very useful.
+
+Support Zabbix Versions
+-----------------------
 I tested the following environments:
 Zabbix Server
  - ver.2.0.3
